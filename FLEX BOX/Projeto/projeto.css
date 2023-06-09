@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.logoRock {
+  width: 40px;
+}
+.logo-onebitcode {
+  width: 200px;
+}
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+}
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+.buttonHeader {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px 15px;
+  border-radius: 15px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.buttonHeader:hover {
+  border-color: #ff0044;
+}

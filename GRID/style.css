@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  background-color: darkgrey;
+  min-height: 100vh;
+  display: grid;
+}
+.item {
+  background-color: antiquewhite;
+  height: auto;
+  border: 2px solid black;
+  font-size: 30px;
+}
